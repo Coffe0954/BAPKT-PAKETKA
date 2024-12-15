@@ -9,11 +9,11 @@ try:
     body = vessel.orbit.body
     flight = vessel.flight()
 
-    sampling_interval = 1  # Initial sampling interval (seconds) - will be adjusted
+    sampling_interval = 1 
     atmospheric_pressure_data = {}
     air_density_data = {}
     start_time = time.time()
-    last_recorded_altitude_km = -1  # Initialize to a value outside the range
+    last_recorded_altitude_km = -1  
 
     print("Начало сбора данных...")
     print(f"Текущее положение: {vessel.position}")
@@ -45,7 +45,7 @@ try:
 
 
             time.sleep(sampling_interval)
-            if altitude < 150:  # прерываем сбор на высоте больше 10000 метров
+            if altitude < 150:
                 break
     except krpc.error.RPCError as e:
         print(f"KRPC Error: {e}")
