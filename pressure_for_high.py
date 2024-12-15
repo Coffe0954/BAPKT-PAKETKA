@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 from math import exp, log
 
 # Constants
-H_0 = 55 * 1000  # Height of start of fall in meters
-R = 8.31  # Universal gas constant
-P_0 = 506625  # Average atmospheric pressure at sea level in Pa
+H_0 = 55 * 1000
+R = 8.31
+P_0 = 506625
 
-h_1 = 5000  # m
-p_1 = 316277  # Pa
-h_2 = 10000  # m
-p_2 = 182072  # Pa
+h_1 = 5000
+p_1 = 316277
+h_2 = 10000 
+p_2 = 182072 
 
 H = (h_2 - h_1) / log(p_1 / p_2)
 
