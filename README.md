@@ -15,7 +15,7 @@
 
 ссылка на видеоотчет: https://youtu.be/dBh-wY4A_YQ
 
-ссылка на презентацию: https://github.com/Coffe0954/BAPKT-PAKETKA/blob/main/%D0%92%D0%90%D0%A0%D0%9A%D0%A2%20-%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20PDF.pdf
+ссылка на презентацию: [Презентация](https://github.com/Coffe0954/BAPKT-PAKETKA/blob/main/%D0%92%D0%90%D0%A0%D0%9A%D0%A2%20-%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20PDF.pdf)
 
 
 остальные файлы внутри репозитория
