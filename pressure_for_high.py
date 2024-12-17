@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 from math import exp, log
 
-# Constants
+# КОНСТАНТЫ
 H_0 = 55 * 1000
 R = 8.31
 P_0 = 506625
