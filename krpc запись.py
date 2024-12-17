@@ -39,7 +39,7 @@ try:
                     atmospheric_pressure_data[altitude] = atm_pressure
                     air_density_data[altitude] = air_density
                     print(f"Высота: {altitude:.2f} м, Плотность: {air_density} кг/м³, Давление: {atm_pressure} Па")
-                    last_recorded_altitude_km = altitude_km  # update last recorded altitude
+                    last_recorded_altitude_km = altitude_km
                 else:
                     print(f"Ошибка: плотность или давление равны None на высоте {altitude}")
 
