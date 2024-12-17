@@ -30,7 +30,7 @@ try:
                 time.sleep(sampling_interval)
                 continue
 
-            # Record data only when altitude changes by at least 1 km
+            
             if abs(altitude_km - last_recorded_altitude_km) >= 1:
                 air_density = flight.atmosphere_density
                 atm_pressure = flight.static_pressure
